@@ -34,7 +34,7 @@
 def XENADMIN_BRANDING_TAG = 'v1.0'
 def BRANDING_TAG = 'master' //use tag on release branches
 
-@Library(["xencenter-pipeline@v1.0"])
+@Library(["xencenter-pipeline@CP-31103"])
 import com.citrix.pipeline.xencenter.*
 
 properties([
